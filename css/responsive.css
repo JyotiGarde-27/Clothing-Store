@@ -1,0 +1,69 @@
+@media (max-width: 1030px) {
+
+    /* home css  */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        min-height: 550px;
+        background-position: left;
+    }
+
+    .home .home-banner .home-banner-text{
+        transform: translate(-90%, -50%);
+    }
+}
+
+@media (max-width: 991px) {
+
+    /* home css  */
+    .home .home-banner .home-banner-text{
+        transform: translate(-75%, -50%);
+    }
+
+    .home .home-banner-1{
+        background-position:left;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* home css  */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        background-position: 20% center;
+        min-height: 450px;
+    }
+
+    .home .home-banner-2{
+        background-position: center;
+    }
+    .home .home-banner-3{
+        background-position: 35% center;
+    }
+
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50% , -50%);
+    }
+
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+    
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* home css  */
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+}
