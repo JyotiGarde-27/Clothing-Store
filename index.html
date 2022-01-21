@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- syle css -->
     <link rel="stylesheet" href="./css/style.css">
@@ -17,10 +19,13 @@
     <link rel="stylesheet" href="css/themify-icons.css">
 
     <!-- cdn links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Clothing Store</title>
 </head>
+
 <body>
 
     <!-- navbar section -->
@@ -28,44 +33,45 @@
     <section class="header">
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
-              <a class="navbar-brand" href="#">
-                  <img src="./images/logo.jpeg" alt="Clothing Store" class="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="ti-align-justify navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.jpeg" alt="Clothing Store" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-align-justify navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
 
-                    <li class="search-bar">
-                     
-                      <form class="d-flex search-bar">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-dark" type="submit"><i class="fas fa-search"></i></button>
-                      </form>
-                    </li>
-                    
-                    <li class="nav-item">
-                      <a class="nav-link" href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./admin.html"><i class="fas fa-user"></i></a>
-                    </li>
-                  </ul>
-              </div>
+                        <li class="search-bar">
+
+                            <form class="d-flex search-bar">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-dark" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./admin.html"><i class="fas fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </section>
 
     <!-- home section -->
@@ -73,55 +79,155 @@
     <section class="home pt-5 overflow-hidden">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="home-banner home-banner-1">
-                    <div class="home-banner-text">
-                        <h1>Women</h1>
-                        <h2>25% Discount for this season</h2>
-                        <a href="#" class="btn btn-danger text-uppercase mt-4">Shop Now</a>
+                <div class="carousel-item active">
+                    <div class="home-banner home-banner-1">
+                        <div class="home-banner-text">
+                            <h1>Women</h1>
+                            <h2>25% Discount for this season</h2>
+                            <a href="#" class="btn btn-danger text-uppercase mt-4">Shop Now</a>
+                        </div>
                     </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="home-banner home-banner-2">
-                    <div class="home-banner-text">
-                        <h1>Kid's</h1>
-                        <h2>50% Discount for this season</h2>
-                        <a href="#" class="btn btn-danger text-uppercase mt-4">Shop Now</a>
+                <div class="carousel-item">
+                    <div class="home-banner home-banner-2">
+                        <div class="home-banner-text">
+                            <h1>Kid's</h1>
+                            <h2>50% Discount for this season</h2>
+                            <a href="#" class="btn btn-danger text-uppercase mt-4">Shop Now</a>
+                        </div>
                     </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="home-banner home-banner-3">
-                    <div class="home-banner-text">
-                        <h1>Men</h1>
-                        <h2>35% Discount for this season</h2>
-                        <a href="#" class="btn btn-danger text-uppercase mt-4">Shop Now</a>
+                <div class="carousel-item">
+                    <div class="home-banner home-banner-3">
+                        <div class="home-banner-text">
+                            <h1>Men</h1>
+                            <h2>35% Discount for this season</h2>
+                            <a href="#" class="btn btn-danger text-uppercase mt-4">Shop Now</a>
+                        </div>
                     </div>
                 </div>
-              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
+
+    <!-- offer section -->
+
+        <div class="offers my-5">
+            <div class="container">
+                <div class="row">
+                    <!-- offer box1 -->
+
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./images/offer1.jpg" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                          <p class="heading-bigger text-uppercase">Sale</p>
+                                          <p class="offer-title-1 font-weight-bold">upto <span class="heading-bigger"> 50%</span></p>
+                                          <button type="button" class="btn btn-outline-danger text-uppercase mt-3">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <!-- offer box2 -->
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4 d-flex flex-column justify-content-between">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./images/offer2.jpg" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                          <p class="heading-bigger text-uppercase">Sale</p>
+                                          <p class="offer-title-1 font-weight-bold">upto <span class="heading-bigger"> 45%</span></p>
+                                          <button type="button" class="btn btn-outline-danger text-uppercase mt-3">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </a>
+
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./images/offer3.png" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                          <p class="heading-bigger text-uppercase">Sale</p>
+                                          <p class="offer-title-1 font-weight-bold">upto <span class="heading-bigger"> 30%</span></p>
+                                          <button type="button" class="btn btn-outline-danger text-uppercase mt-3">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <!-- offer box3 -->
+
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./images/offer4.png" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                          <p class="heading-bigger text-uppercase">Sale</p>
+                                          <p class="offer-title-1 font-weight-bold">upto <span class="heading-bigger"> 25%</span></p>
+                                          <button type="button" class="btn btn-outline-danger text-uppercase mt-3">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
-    
-    
+
+
 
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

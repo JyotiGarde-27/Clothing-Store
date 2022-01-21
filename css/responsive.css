@@ -11,6 +11,11 @@
     .home .home-banner .home-banner-text{
         transform: translate(-90%, -50%);
     }
+
+    /* offer css */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 991px) {
