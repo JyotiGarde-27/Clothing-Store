@@ -16,6 +16,11 @@
     .offers .offer-box .offer-info .heading-bigger{
         font-size: 2.5rem;
     }
+
+    /* special css */
+    .special .countdown-container .countdown-counter li{
+        padding: 1.5rem 1rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -27,6 +32,11 @@
 
     .home .home-banner-1{
         background-position:left;
+    }
+
+    /* special css */
+    .special .countdown-container{
+        padding-bottom: 3rem;
     }
 }
 
@@ -62,6 +72,21 @@
     
     .home .home-banner .home-banner-text .btn-danger{
         padding: 0.5rem 1.5rem;
+    }
+
+    /* special css */
+    
+    .special .countdown-container .countdown-counter li{
+        padding: 1rem;
+        width: 20%;
+    }
+
+    .main-heading{
+        margin-bottom: 1rem !important;
+    }
+
+    .main-heading h1{
+        font-size: 2.5rem;
     }
 }
 
