@@ -251,7 +251,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 2px 50px 50px 50px;
+    border-radius: 2px 50px 2px 50px;
 }
 .parallax .heading-bigger{
     font-size: 3.8rem;
@@ -259,4 +259,40 @@ p{
     font-weight: 400;
     margin-bottom: 0;
     color: var(--text-danger);
+}
+
+/* footer css */
+
+.footer-section .footer-col{
+    margin-bottom: 30px;
+}
+
+.footer-section .footer-contact .contact-link-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .footer-contact .contact-link-box a{
+    color: var(--text-white);
+    margin: 4px 0;
+}
+.footer-section .footer-contact .contact-link-box a:hover,
+.footer-section .footer-social a:hover{
+    color: var(--text-danger);
+}
+
+.footer-section .footer-logo {
+    display: block;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 1;
+    color: var(--text-white);
+}
+.footer-section .footer-social{
+    display: flex;
+    justify-content: center;
+}
+.footer-section .footer-social a{
+    color: var(--text-white);
+    margin: 0.3rem;
 }
