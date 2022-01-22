@@ -180,24 +180,19 @@ p{
 .special{
     background-color: var(--bg-light-white);
 }
-
 .ti-star{
     color: var(--text-gray);
 }
-
 .ti-star.active{
     color: var(--text-danger);
 }
-
 .main-heading h1{
     font-size: 2.8rem;
 }
-
 .special .countdown-container p{
     color: var(--text-dark-gray);
     font-weight: 300;
 }
-
 .special .countdown-container .countdown-counter{
     display: block;
     width: 100%;
@@ -205,7 +200,6 @@ p{
     padding: 0;
     margin-bottom: 1.8rem;
 }
-
 .special .countdown-container .countdown-counter li{
     display: inline-block;
     font-size: 1rem;
@@ -216,21 +210,17 @@ p{
     width: 15%;
     margin: 0.3rem;
 }
-
 .countdown-counter li .coundown-text{
     color: var(--text-dark-gray);
 }
-
 .special .countdown-container .countdown-price del{
     color: var(--text-dark-gray);
     font-size: 1.2rem;
 }
-
 .special-img img{
     width: 100%;
     height: 100%;
 }
-
 .special-offer{
     padding: 0.3rem 0.35rem;
     background: var(--bg-danger);
@@ -240,4 +230,33 @@ p{
     left: 0.15rem;
     top: 0.15rem;
     z-index: 99;
+}
+
+/* parallax css */
+
+.parallax{
+    width: 100%;
+    height: 600px;
+    background: url('../images/parallax-img.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.parallax-content{
+    padding: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px 50px 50px 50px;
+}
+.parallax .heading-bigger{
+    font-size: 3.8rem;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: var(--text-danger);
 }
