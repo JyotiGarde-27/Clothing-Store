@@ -261,6 +261,17 @@ p{
     color: var(--text-danger);
 }
 
+/* top brand css */
+
+.top-brand-container li{
+    list-style: none;
+}
+.top-brand-container{
+    overflow-x: auto;
+    background: var(--bg-light-white);
+    padding: 0.2rem;
+}
+
 /* footer css */
 
 .footer-section .footer-col{
