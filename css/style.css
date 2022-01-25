@@ -265,11 +265,25 @@ p{
 
 .top-brand-container li{
     list-style: none;
+    margin: 30px;
 }
 .top-brand-container{
     overflow-x: auto;
     background: var(--bg-light-white);
     padding: 0.2rem;
+}
+
+/* Contact css */
+
+.contact{
+    padding: 5rem 0;
+    background-color: var(--bg-light-white);
+}
+.info-paragraph{
+    color: var(--text-dark-gray);
+}
+.contact .form-control{
+    height: 3.5rem;
 }
 
 /* footer css */

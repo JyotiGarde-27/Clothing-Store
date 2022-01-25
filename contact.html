@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Clothing Store, Clothing Website, HTML, CSS, JavaScript, BOOTSTRAP">
+    <meta name="author" content="Jyoti Garde">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- syle css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- themify icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Clothing Store</title>
+</head>
+
+<body>
+
+    <!-- navbar section -->
+
+    <section class="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.jpeg" alt="Clothing Store" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-align-justify navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="search-bar">
+
+                            <form class="d-flex search-bar">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-dark" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./admin.html"><i class="fas fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div class="contact">
+        <div class="container">
+            <div class="text-center my-5 main-heading">
+                <h1 class="position-relative d-inline-block pb-3">CONTACT US</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <h4 class="fs-3 mb-3">Contact Info</h4>
+
+                    <ul class="info list-unstyled">
+                        <li class="mb-3">
+                            <p><i class="fas fa-map-marker-alt"></i> ADDRESS</p>
+                            <p class="info-paragraph">222, Lorem ipsum dolor sit amet elit, <br /> Possimus quod
+                                eligendi reprehenderit commodi.</p>
+
+                        </li>
+                        <li class="mb-3">
+                            <p><i class="fas fa-phone-square-alt"></i> PHONE</p>
+                            <p class="info-paragraph">+91 1235468975 <br /> +91 9999155999</p>
+                        </li>
+                        <li class="mb-3">
+                            <p><i class="fas fa-envelope"></i> EMAIL</p>
+                            <p><a href="" class="info-paragraph">abc@gmail.com </a> </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+
+                    <form>
+                        <div class="row">
+
+                            <div class="col-md-6 mb-4">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <input type="email" class="form-control" id="email" placeholder="Email address"
+                                    required>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <input type="text" class="form-control" id="name" placeholder="Subject">
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <input type="text" class="form-control" name="your phone number"
+                                    placeholder="Phone number" required>
+                            </div>
+
+                            <div class="mb-5">
+                                <textarea id="message" class="form-control" placeholder="Enter Your Message"
+                                    style="height:140px"></textarea>
+                            </div>
+
+                            <div class="col-md-12 pb-3">
+                                <button class="btn btn-danger"><span class="ti-rocket pe-2 fs-5"></span>Send
+                                    Message</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- contact map -->
+        <section class="contact-map">
+            <div class="container  pt-5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.3215880876937!2d73.83641941472061!3d18.514364187412603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf88f8dfe99d%3A0xba741291e56d9b68!2sLe%20Plaisir!5e0!3m2!1sen!2sin!4v1637956647652!5m2!1sen!2sin"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- footer section -->
+
+    <footer class="footer-section bg-dark text-light text-center">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <div class="footer-contact">
+                        <h2>Links</h2>
+                        <div class="contact-link-box">
+                            <a href="./index.html">Home</a>
+                            <a href="./about.html">About</a>
+                            <a href="./contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 footer-col">
+                    <div class="footer_detail">
+                        <a href="./index.html" class="footer-logo">
+                            <h2>Clothing Store</h2>
+                        </a>
+                        <p class="lead fs-6">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quod eligendi
+                            reprehenderit commodi, harum itaque.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 footer-col">
+                    <h2>Follow Us</h2>
+
+                    <div class="footer-social">
+                        <a href="#">
+                            <i class="fab fa-facebook fs-4"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter fs-4"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in fs-4"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram fs-4"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest fs-4"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="text-light fs-6">
+                        <i class="fas fa-envelope mx-2"></i>
+                        <span>abc@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; Copyright 2022 Clothing Store | Designed with <i class="fas fa-heart text-danger"></i> by
+                    Jyoti Garde</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
