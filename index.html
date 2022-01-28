@@ -47,8 +47,16 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./product.html">Products</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#products" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./women.html">Women</a></li>
+                                <li><a class="dropdown-item" href="#">Kid's</a></li>
+                                <li><a class="dropdown-item" href="#">Men</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contact.html">Contact</a>
@@ -348,55 +356,63 @@
                 <div class="col-sm-2 col-lg-8 offset-lg-2 text-center">
                     <div id="carouselExampleIndicatorsTwo" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
                         </div>
-                        
+
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="testimonial-wrapper">
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <img src="images/user1.jpg" alt="user" class="img-fluid">
+                            <div class="carousel-item active">
+                                <div class="testimonial-wrapper">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <img src="images/user1.jpg" alt="user" class="img-fluid">
+                                        </div>
+                                        <div class="username">
+                                            <h3>XYZ, Co-Founder/CEO</h3>
+                                            <span>XYZ_COMPANY LTD.</span>
+                                            <p class="lead fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                elit. Libero ipsam facilis ullam perspiciatis unde doloribus soluta, et
+                                                deleniti quasi quam.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="username">
-                                  <h3>XYZ, Co-Founder/CEO</h3>
-                                  <span>XYZ_COMPANY LTD.</span>
-                                  <p class="lead fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ipsam facilis ullam perspiciatis unde doloribus soluta, et deleniti quasi quam.</p>
-                                </div>
-                              </div>
                             </div>
-                          </div>
-          
-                          <div class="carousel-item">
-                            <div class="testimonial-wrapper">
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <img src="images/user2.jpg" alt="user" class="img-fluid">
+
+                            <div class="carousel-item">
+                                <div class="testimonial-wrapper">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <img src="images/user2.jpg" alt="user" class="img-fluid">
+                                        </div>
+                                        <div class="username">
+                                            <h3>XYZ, Co-Founder/CEO</h3>
+                                            <span>XYZ_COMPANY LTD.</span>
+                                            <p class="lead fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                elit. Libero ipsam facilis ullam perspiciatis unde doloribus soluta, et
+                                                deleniti quasi quam.</p>
+
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="username">
-                                  <h3>XYZ, Co-Founder/CEO</h3>
-                                  <span>XYZ_COMPANY LTD.</span>
-                                  <p class="lead fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ipsam facilis ullam perspiciatis unde doloribus soluta, et deleniti quasi quam.</p>
-                                  
-                                </div>
-                              </div>
+
                             </div>
-                
-                          </div>
-          
+
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true">
-                          </span>
-                          <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true">
+                            </span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true">
-                          </span>
-                          <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                            </span>
+                            <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
