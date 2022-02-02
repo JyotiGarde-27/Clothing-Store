@@ -312,6 +312,15 @@ p{
     background-color: var(--bg-light-white);
 }
 
+/* productView css */
+.productView input{
+    width:50px;
+    height:40px;
+    padding-left:10px;
+    font-size:16px;
+    margin-right: 10px;
+}
+
 /* Contact css */
 
 .contact{
