@@ -334,6 +334,23 @@ p{
     height: 3.5rem;
 }
 
+/* login form */
+.card{
+    border: none;
+    border-top: 5px solid var(--text-danger);
+    background: var(--bg-light-white);
+}
+.login-form{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto ;
+}
+.my-form p .reg-log-btn{
+    color: var(--text-danger);
+    border-bottom: 1px solid var(--text-danger);
+    font-size: 1.15rem;
+}
+
 /* footer css */
 
 .footer-section .footer-col{
