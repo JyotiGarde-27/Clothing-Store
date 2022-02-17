@@ -31,7 +31,6 @@
 <body>
 
     <!-- navbar section -->
-
     <section class="header">
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
@@ -45,7 +44,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#products" id="navbarDropdownMenuLink"
@@ -59,7 +58,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto">
@@ -84,87 +83,53 @@
         </nav>
     </section>
 
-    <div class="contact">
-        <div class="container">
-            <div class="text-center my-5 main-heading">
-                <h1 class="position-relative d-inline-block pb-3">CONTACT US</h1>
+    <!-- register form -->
+    <section class="register py-4">
+        <div class="container py-5">
+            <div class="text-center mt-5 mb-4">
+                <h1 class="position-relative d-inline-block pb-3">Register Here</h1>
             </div>
+            <div class="row w-100 d-flex justify-content-center align-items-center m-0">
+                <div class="col-12 col-md-8 col-xxl-5">
+                    <div class="card py-4 px-4">
+                        <div class="login-form">
+                            <div class="row">
+                                <form class="my-form">
 
-            <div class="row">
-                <div class="col-lg-5 col-md-5">
-                    <h4 class="fs-3 mb-3">Contact Info</h4>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="name"
+                                            placeholder="Name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="email" placeholder="Email"
+                                            required>
+                                    </div>
 
-                    <ul class="info list-unstyled">
-                        <li class="mb-3">
-                            <p><i class="fas fa-map-marker-alt"></i> ADDRESS</p>
-                            <p class="info-paragraph">222, Lorem ipsum dolor sit amet elit, <br /> Possimus quod
-                                eligendi reprehenderit commodi.</p>
+                                    <div class="mb-3">
+                                        <input type="password" class="form-control" id="password" placeholder="Password"
+                                            required>
+                                    </div>
+                                    <div class="mt-5">
+                                        <button type="button" class="btn btn-danger w-100 rounded-pill fs-5">
+                                            <small><i class="far fa-user pe-2"></i>Login</small>
+                                        </button>
+                                    </div>
 
-                        </li>
-                        <li class="mb-3">
-                            <p><i class="fas fa-phone-square-alt"></i> PHONE</p>
-                            <p class="info-paragraph">+91 1235468975 <br /> +91 9999155999</p>
-                        </li>
-                        <li class="mb-3">
-                            <p><i class="fas fa-envelope"></i> EMAIL</p>
-                            <p><a href="" class="info-paragraph">abc@gmail.com </a> </p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
-
-                    <form>
-                        <div class="row">
-
-                            <div class="col-md-6 mb-4">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                    <div class="mt-5">
+                                        <p>Already Registered ? <a href="./login.html" class="reg-log-btn"> Login Here</a>
+                                        </p>
+                                    </div>
+                                </form>
                             </div>
-
-                            <div class="col-md-6 mb-4">
-                                <input type="email" class="form-control" id="email" placeholder="Email address"
-                                    required>
-                            </div>
-
-                            <div class="col-md-6 mb-4">
-                                <input type="text" class="form-control" id="name" placeholder="Subject">
-                            </div>
-
-                            <div class="col-md-6 mb-4">
-                                <input type="text" class="form-control" name="your phone number"
-                                    placeholder="Phone number" required>
-                            </div>
-
-                            <div class="mb-5">
-                                <textarea id="message" class="form-control" placeholder="Enter Your Message"
-                                    style="height:140px"></textarea>
-                            </div>
-
-                            <div class="col-md-12 pb-3">
-                                <button class="btn btn-danger"><span class="ti-rocket pe-2 fs-5"></span>Send
-                                    Message</button>
-                            </div>
-
                         </div>
-                    </form>
-
+                    </div>
                 </div>
             </div>
 
         </div>
-        <!-- contact map -->
-        <section class="contact-map">
-            <div class="container  pt-5">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.3215880876937!2d73.83641941472061!3d18.514364187412603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf88f8dfe99d%3A0xba741291e56d9b68!2sLe%20Plaisir!5e0!3m2!1sen!2sin!4v1637956647652!5m2!1sen!2sin"
-                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
-    </div>
-
+    </section>
 
     <!-- footer section -->
-
     <footer class="footer-section bg-dark text-light text-center">
         <div class="container py-5">
             <div class="row">
